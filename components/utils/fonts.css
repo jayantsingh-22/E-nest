@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+
+.outfit {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.mentor {
+  font-weight: 500;
+  font-size: 14px;
+  color: #7a1dc5;
+}
+
+.indName {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 48px;
+}
+
+.subHead {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.ratings {
+  font-weight: 500;
+  font-size: 28px;
+}
+
+.title {
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 42px;
+}
+
+.duration {
+  font-weight: 500;
+}
