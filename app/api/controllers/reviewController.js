@@ -1,10 +1,10 @@
-const Review = require('../models/reviewModel');
+import { find } from '../models/reviewModel';
 
-exports.getReviews = async (req, res) => {
+export async function getReviews(req, res) {
     try {
-        const reviews = await Review.find();
+        const reviews = await find();
         res.json(reviews);
     } catch (err) {
         res.status(500).json({ error: err.message });
     }
-};
+}

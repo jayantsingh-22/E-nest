@@ -11,7 +11,7 @@ const InstructorCard = () => {
             <p className="outfit subHead">
                 {" "}
                 Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy text ever
+                industry. Lorem Ipsum has been the standard of the industry  dummy text ever
             </p>
             <StarRating rating={4.0} size={"lg"}/>
         </div>

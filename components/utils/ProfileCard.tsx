@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 // src/components/ProfileCard.tsx
 import React from 'react';
 

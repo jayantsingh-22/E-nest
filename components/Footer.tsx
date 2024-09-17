@@ -1,5 +1,4 @@
 import Image from "next/image";
-import { GoLocation } from "react-icons/go";
 
 const Footer = () => {
   const company = [
@@ -73,7 +72,7 @@ const Footer = () => {
 
         <div className="mt-8 px-4 flex items-center justify-around gap-16">
           <div className="font-extrabold text-center mb-2">
-            <p className="mb-5 text-primary text-md">Let's get social:</p>
+            <p className="mb-5 text-primary text-md">Let us get social:</p>
             <span className="ml-8 flex gap-2">
               <Image
                 src="/assets/ig.png"

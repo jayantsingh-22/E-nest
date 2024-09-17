@@ -1,4 +1,5 @@
 import type { Config } from "tailwindcss";
+
 const config: Config = {
   content: [
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
@@ -32,8 +33,9 @@ const config: Config = {
       boxShadow: {
         light: "rgba(99, 99, 99, 0.1) 0px 1px 5px 1px;",
       },
-      },
     },
+  },
   plugins: [],
 };
+
 export default config;

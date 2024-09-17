@@ -1,5 +1,6 @@
+/* eslint-disable @typescript-eslint/no-var-requires */
 const Review = require("../models/reviewModel");
-const Instructor = require("../models/instructorModel");
+
 
 const generateDummyData = async () => {
   try {
