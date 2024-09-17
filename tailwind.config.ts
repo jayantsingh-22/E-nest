@@ -31,7 +31,7 @@ const config: Config = {
         bookCardText: "#4C286A",
       },
       boxShadow: {
-        light: "rgba(99, 99, 99, 0.1) 0px 1px 5px 1px;",
+        light: "rgba(99, 99, 99, 0.1) 0px 1px 5px 1px",
       },
     },
   },
