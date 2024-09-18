@@ -1,4 +1,4 @@
-import { Schema, model } from "mongoose";
+import { Schema, model, models } from "mongoose";
 
 const reviewSchema = new Schema({
   courseId: {
@@ -19,6 +19,6 @@ const reviewSchema = new Schema({
   },
 });
 
-const Review = model("Review", reviewSchema);
+const Review = models.Review || model("Review", reviewSchema);
 
 export default Review;

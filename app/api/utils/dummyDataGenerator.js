@@ -1,25 +1,27 @@
 /* eslint-disable @typescript-eslint/no-var-requires */
 const Review = require("../models/reviewModel");
+const Mentor = require("../models/mentorModel");
+
 
 
 const generateDummyData = async () => {
   try {
     await Review.deleteMany({});
-    await Instructor.deleteMany({});
+    await Mentor.deleteMany({});
 
     await Review.create([
       {
         courseId: "1",
         reviewerName: "Raju Rastogi",
         reviewText:
-          "“Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make at”",
+          "“Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make at”",
         rating: 4.8,
       },
       {
         courseId: "2",
         reviewerName: "Raju Rastogi",
         reviewText:
-          "“Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make at”",
+          "“Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make at”",
         rating: 4.8,
       },
       {
@@ -34,27 +36,35 @@ const generateDummyData = async () => {
     await Instructor.create([
       {
         instructorId: "1",
-        instructorName: "Alice Johnson",
-        instructorTitle: "Senior Developer",
+        instructorName: "Chatur Ramlingam",
+        instructorTitle: "Prof. at FSSAI",
         instructorDescription:
-          "Expert in JavaScript and Node.js with over 10 years of experience.",
-        instructorImage: "https://example.com/alice.jpg",
+          "10+ years experience.",
+        instructorImage: "/assets/Chatur.png",
       },
       {
         instructorId: "2",
-        instructorName: "Bob Brown",
-        instructorTitle: "React Specialist",
+        instructorName: "Chatur Ramlingam",
+        instructorTitle: "Prof. at FSSAI",
         instructorDescription:
-          "React specialist with extensive experience in front-end development.",
-        instructorImage: "https://example.com/bob.jpg",
+          "10+ years experience.",
+        instructorImage: "/assets/Chatur.png",
       },
       {
         instructorId: "3",
-        instructorName: "Charlie Davis",
-        instructorTitle: "Full Stack Developer",
+        instructorName: "Chatur Ramlingam",
+        instructorTitle: "Prof. at FSSAI",
         instructorDescription:
-          "Experienced full stack developer with a passion for teaching.",
-        instructorImage: "https://example.com/charlie.jpg",
+          "10+ years experience.",
+        instructorImage: "/assets/Chatur.png",
+      },
+      {
+        instructorId: "4",
+        instructorName: "Chatur Ramlingam",
+        instructorTitle: "Prof. at FSSAI",
+        instructorDescription:
+          "10+ years experience.",
+        instructorImage: "/assets/Chatur.png",
       },
     ]);
 
